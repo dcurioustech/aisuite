@@ -1,8 +1,8 @@
 # config.yaml
 llms:
-  - name: "OpenAI GPT-4o"
+  - name: "OpenAI GPT-4o-min"
     provider: "openai"
-    model: "gpt-4o"
+    model: "gpt-4o-mini"
   - name: "Anthropic Claude 3.5 Sonnet"
     provider: "anthropic"
     model: "claude-3-5-sonnet-20240620"
@@ -10,5 +10,5 @@ llms:
     provider: "azure"
     model: "gpt-4o"
   - name: "Huggingface/Mistral 7B"
-    provider: "huggingface"
-    model: "mistralai/Mistral-7B-Instruct"
+    provider: "mistral"
+    model: "mistral-small-2501"
